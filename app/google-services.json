@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "426475896992",
+    "firebase_url": "https://easyshopping-e02e0.firebaseio.com",
+    "project_id": "easyshopping-e02e0",
+    "storage_bucket": "easyshopping-e02e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426475896992:android:b424774c6ec2baf9cb09c5",
+        "android_client_info": {
+          "package_name": "com.example.easyshopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426475896992-i0bjj1p3g0i2llqrknumuee4o27ftgoa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.easyshopping",
+            "certificate_hash": "03fa4669e0c54f0452f684127059ba48c07bbcef"
+          }
+        },
+        {
+          "client_id": "426475896992-s1v089d64btk5t6gp64d4m8fhfifedjl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLo83I8_lLDENtLgG3PextFfAxso1y0Ec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426475896992-s1v089d64btk5t6gp64d4m8fhfifedjl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

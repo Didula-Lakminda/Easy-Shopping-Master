@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.ProductSearchActivity"
+    android:background="@android:color/white">
+    <include layout="@layout/backtoolbar"></include>
+    <RelativeLayout
+        android:id="@+id/productSearch_relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="15dp"
+            android:layout_marginHorizontal="10dp"
+            >
+
+        <EditText
+            android:id="@+id/productSearch_textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Search..."
+
+            android:layout_marginStart="10dp"
+            android:layout_marginVertical="5dp"
+            android:layout_centerVertical="true"
+
+            android:textSize="26dp"
+            >
+
+        </EditText>
+            <ImageView
+                android:id="@+id/search_imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_search"
+                android:layout_marginLeft="350dp"/>
+
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/searchList_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/productSearch_relativeLayout"
+        android:layout_marginTop="20dp"
+
+        ></androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

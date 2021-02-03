@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DriverManagement.Dilivery_details">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+
+        android:background="@drawable/loca1" />
+
+    <TextView
+        android:id="@+id/txt_dil_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dilivery Details"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:fontFamily="@font/bungee"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/et_cust_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/input_design"
+        android:ems="10"
+        android:hint="@string/hintddName"
+        android:inputType="textPersonName"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/et_cust_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/input_design"
+        android:ems="10"
+        android:hint="@string/hintddc_phone"
+        android:inputType="textPersonName"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/et_cust_h_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/input_design"
+        android:ems="10"
+        android:hint="@string/hintdd_home_add"
+        android:inputType="textPersonName"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/et_cust_road"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/input_design"
+        android:ems="10"
+        android:hint="@string/hintdd_road_name"
+        android:inputType="textPersonName"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/et_cust_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/input_design"
+        android:ems="10"
+        android:hint="@string/hintdd_city"
+        android:inputType="textPersonName"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/et_cust_district"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/input_design"
+        android:ems="10"
+        android:hint="@string/hintdd_district"
+        android:inputType="textPersonName"
+        android:padding="15dp" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_insert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/buttons"
+            android:backgroundTint="#FF9100"
+            android:fontFamily="@font/bungee"
+            android:text="@string/submit_btn"
+            android:textColor="#0E0E0E" />
+
+        <Button
+            android:id="@+id/btn_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttons"
+            android:backgroundTint="#FF9100"
+            android:fontFamily="@font/bungee"
+            android:text="@string/show_btn"
+            android:textColor="#0E0E0E" />
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttons"
+            android:fontFamily="@font/bungee"
+            android:backgroundTint="#FF9100"
+            android:text="@string/ddupdate_btn"
+            android:textColor="#0E0E0E" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttons"
+            android:backgroundTint="#FF9100"
+            android:fontFamily="@font/bungee"
+            android:text="@string/dddelete_btn"
+            android:textColor="#0E0E0E" />
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:background="@android:color/darker_gray"
+    android:layout_marginTop="50dp"
+    android:layout_height="100dp">
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:id="@+id/appl_name"
+        android:textSize="15sp"
+        android:hint="Drivers Name :"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorAccent"
+        android:textStyle="bold"
+
+
+
+        />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/appl_phone"
+        android:hint="Drivers Phone :"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorAccent"
+        android:textStyle="bold"
+
+
+        />
+
+</LinearLayout>

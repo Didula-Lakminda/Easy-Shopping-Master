@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">EasyShopping</string>
+    <string name="mouse">Mouse</string>
+    <string name="computer_case">Computer Case</string>
+    <string name="keyboard">Keyboard</string>
+    <string name="headphone">Headphone</string>
+    <string name="Monitor">Monitor</string>
+    <string name="laptop">Laptop</string>
+    <string name="watches">Watches</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hintddName">Please Enter Your Name</string>
+    <string name="hintddc_phone">Please Enter Your phone Number</string>
+    <string name="hintdd_home_add">Enter Your House No</string>
+    <string name="hintdd_road_name">Please Enter  Road Name</string>
+    <string name="hintdd_city">Please Enter City Name</string>
+    <string name="hintdd_district">Please Enter District Name</string>
+    <string name="submit_btn">SUBMIT</string>
+    <string name="show_btn">SHOW</string>
+    <string name="ddupdate_btn">UPDATE</string>
+    <string name="dddelete_btn">DELETE</string>
+
+    <string name="f1">Customer Feedback</string>
+    <string name="name">Enter name....</string>
+    <string name="email">EnterEmail...</string>
+    <string name="msg">Enter reviews...</string>
+    <string name="b1">SEND</string>
+    <string name="b2">EDIT</string>
+    <string name="msg2">updateName</string>
+    <string name="msg3">updateEmail</string>
+    <string name="msg4">updateMessage</string>
+    <string name="b3">UPDATE</string>
+    <string name="b4">DELETE</string>
+    <string name="f2">UpdateFeedback</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>

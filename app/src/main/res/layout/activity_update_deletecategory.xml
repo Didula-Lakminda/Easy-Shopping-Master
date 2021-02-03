@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp"
+    tools:context=".Categories.updateDeletecategory">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/maintainproductimage_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="centerCrop" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/maintainproductname_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_below="@+id/maintainproductimage_imageView"
+            android:layout_width="350dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="75dp"
+            android:hint="Product name"
+            android:outlineSpotShadowColor="@color/cardview_shadow_end_color"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/maintainproductname_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/maintainproductdescription_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_below="@+id/maintainproductname_layout"
+            android:layout_width="350dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="75dp"
+            android:hint="Description"
+            android:outlineSpotShadowColor="@color/cardview_shadow_end_color"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/maintainproductdescription_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <Button
+            android:id="@+id/maintainUpdate_button"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/maintainproductdescription_layout"
+            android:layout_centerHorizontal="true"
+            android:text="Update"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/bungee"/>
+
+        <Button
+            android:id="@+id/maintainDelete_button"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/maintainUpdate_button"
+            android:layout_centerHorizontal="true"
+            android:text="Delete"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/bungee"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

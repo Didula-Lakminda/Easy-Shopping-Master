@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AdminAddNewProductActivity"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/admin_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Add New Product"
+        android:textAlignment="center"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:id="@+id/linear_category_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/admin_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/mouse_cardView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="30dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/mouse_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mouse_imageView"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/mouse"
+                    android:textSize="22dp" />
+
+                <ImageView
+                    android:id="@+id/mouse_imageView"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:contentDescription="@string/mouse"
+                    app:srcCompat="@drawable/mouse" />
+            </RelativeLayout>
+
+            android:layout_marginRight="10dp">
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/computerCase_cardView"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="30dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/computerCase_imageView"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:contentDescription="@string/computer_case"
+                    app:srcCompat="@drawable/computercase" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/computerCase_imageView"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/computer_case"
+                    android:textSize="22sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_category_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/linear_category_layout1"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/keyboard_cardView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="30dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/keyboard_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/keyboard_imageView"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/keyboard"
+                    android:textSize="22sp" />
+
+                <ImageView
+                    android:id="@+id/keyboard_imageView"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:contentDescription="@string/keyboard"
+                    app:srcCompat="@drawable/keyboard" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/headphone_cardView"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="30dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/headphone_imageView"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:contentDescription="@string/headphone"
+                    app:srcCompat="@drawable/headphoness" />
+
+                <TextView
+                    android:id="@+id/headphone_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/headphone_imageView"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/headphone"
+                    android:textSize="22dp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_category_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/linear_category_layout2"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/watches_cardView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="30dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/monitor_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/watches_imageView"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/watches"
+                    android:textSize="22sp" />
+
+                <ImageView
+                    android:id="@+id/watches_imageView"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:contentDescription="@string/Monitor"
+                    app:srcCompat="@drawable/watches" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/laptop_cardView"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="30dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/laptop_imageView"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:contentDescription="@string/laptop"
+                    app:srcCompat="@drawable/laptops" />
+
+                <TextView
+                    android:id="@+id/laptop_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/laptop_imageView"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/laptop"
+                    android:textSize="22sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/adminMaintain_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/linear_category_layout3"
+            android:text="Product maintain"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"/>
+    </RelativeLayout>
+
+
+</ScrollView>

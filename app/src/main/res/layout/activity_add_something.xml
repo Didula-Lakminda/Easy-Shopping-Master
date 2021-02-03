@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddSomething"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="300dp"
+         android:src="@drawable/lognew2"/>
+
+        <Button
+            android:id="@+id/addcateAdmin"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#FF272525"
+            android:fontFamily="@font/bangers"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:text="Add Category" />
+
+        <Button
+            android:id="@+id/addproAdmin"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/bangers"
+            android:backgroundTint="#FF272525"
+            android:textColor="#fff"
+            android:text="Add Product" />
+
+        <Button
+            android:id="@+id/adddriAdmin"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/bangers"
+            android:backgroundTint="#FF272525"
+            android:textColor="#fff"
+            android:text="Driver Manage" />
+
+    </LinearLayout>
+
+</ScrollView>

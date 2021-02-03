@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/darker_gray"
+    android:layout_marginTop="50dp"
+    android:layout_height="100dp">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/d_name"
+        android:textSize="15sp"
+        android:hint="Drivers Name :"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorAccent"
+        android:textStyle="bold"
+
+
+
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/d_phone"
+        android:hint="Drivers Phone :"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorAccent"
+        android:textStyle="bold"
+
+
+        />
+
+    <Button
+        android:id="@+id/driver_delete_btn"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="DELETE"
+        android:background="@drawable/buttonadmin"
+        android:textColor="@android:color/darker_gray"
+        />
+    <Button
+        android:id="@+id/driver_assign_btn"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="Assign"
+        android:background="@drawable/buttonadmin"
+        android:textColor="@android:color/darker_gray"
+        />
+</LinearLayout>

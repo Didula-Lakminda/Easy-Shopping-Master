@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AddProductActivity"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/select_product_image"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_margin="25dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/select_product_image"
+        android:layout_centerHorizontal="true" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/productname_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_below="@id/select_product_image"
+        android:layout_width="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="75dp"
+        android:hint="Product name"
+        android:outlineSpotShadowColor="@color/cardview_shadow_end_color"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/productname_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/description_layout"
+        android:layout_below="@id/productname_layout"
+        android:layout_width="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:layout_height="75dp"
+        android:hint="Description"
+        android:outlineSpotShadowColor="@color/cardview_shadow_end_color"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/description_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/price_layout"
+        android:layout_below="@id/description_layout"
+        android:layout_width="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:layout_height="75dp"
+        android:hint="Price"
+        android:outlineSpotShadowColor="@color/cardview_shadow_end_color"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/price_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/addprocuct_button"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/price_layout"
+        android:layout_margin="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="#000"
+        android:text="Add Product"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        />
+
+</RelativeLayout>

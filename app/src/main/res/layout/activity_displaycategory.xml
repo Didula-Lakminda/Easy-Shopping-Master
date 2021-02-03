@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Categories.displaycategory">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/category_total"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#0C0C0C"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="Total"
+            android:textColor="#fff"
+            android:textAlignment="textEnd"
+            android:textStyle="bold"
+            android:fontFamily="@font/amita"/>
+
+        <RelativeLayout
+            android:id="@+id/categorySearch_relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="6dp"
+                app:cardBackgroundColor="@android:color/white">
+
+                <TextView
+                    android:id="@+id/productSearch_textView"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:hint="Search Products"
+                    android:textAlignment="center"
+
+                    android:textSize="26dp">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/productSearch_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="330dp"
+                    android:background="@android:color/white"
+                    android:text="Search" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/menu_recycleView"
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:layout_below="@+id/categorySearch_relativeLayout"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginBottom="-2dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="#fff"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/antic"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Number Of Categories" />
+
+    </RelativeLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

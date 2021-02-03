@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.ProductDetailsActivity">
+    <include layout="@layout/product_tool_bar"/>
+
+    <ImageView
+        android:id="@+id/productDetailsImage_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/productDetailsName_textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Product Name"
+        android:layout_below="@id/productDetailsImage_imageView"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/productDetailsDescription_textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Description"
+        android:layout_below="@id/productDetailsName_textView"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/productDetailsPrice_textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Product Name"
+        android:layout_below="@id/productDetailsDescription_textView"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"/>
+
+    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+        android:id="@+id/quantity_eleganButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productDetailsPrice_textView"
+        android:elevation="6dp"
+        app:initialNumber="1"
+        app:textSize="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:finalNumber="10">
+
+
+    </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+    <Button
+        android:id="@+id/addToCart_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Add To Cart"
+        android:textSize="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+         />
+</RelativeLayout>

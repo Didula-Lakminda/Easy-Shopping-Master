@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.easyshopping">
+
+    <application xmlns:tools="http://schemas.android.com/tools"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:theme">
+        <activity android:name=".successOrder"></activity>
+        <activity android:name=".FeedbackManagement.updateFeedback" />
+        <activity android:name=".FeedbackManagement.FeedbackHome" />
+        <activity android:name=".Driverapplicant" />
+        <activity android:name=".driver_up_del" />
+        <activity android:name=".DriverManagement.driverApplication" />
+        <activity android:name=".DriverManagement.Dilivery_details" />
+        <activity android:name=".DriverManagement.Create_driver" />
+        <activity android:name=".DriverManagement.Manage_drivers" />
+        <activity android:name=".DriverHome" />
+        <activity android:name=".AddSomething" />
+        <activity android:name=".dashboard" />
+        <activity android:name=".setnewpassword" />
+        <activity android:name=".register" />
+        <activity android:name=".Register.register_3" />
+        <activity android:name=".Register.register_2" />
+        <activity android:name=".Register.register_1" />
+        <activity android:name=".ProfileHandle.userprofile" />
+        <activity android:name=".ProfileHandle.login" />
+        <activity android:name=".ForgetPassword.forgetpassword" />
+        <activity android:name=".ForgetPassword.forgetlog" />
+        <activity android:name=".Categories.usershowcategory" />
+        <activity android:name=".Categories.updateDeletecategory" />
+        <activity android:name=".Categories.showusercategory" />
+        <activity android:name=".Categories.searchcategory" />
+        <activity android:name=".Categories.displaycategory" />
+        <activity android:name=".Categories.addcategory" />
+        <activity android:name=".Admin.adminlog" />
+        <activity android:name=".Admin.AdminHomeActivity" />
+        <activity android:name=".Admin.AdminMaintainProductActivity" />
+        <activity android:name=".User.ProductSearchActivity" />
+        <activity android:name=".User.CartActivity" />
+        <activity android:name=".User.ProductDetailsActivity" />
+        <activity android:name=".User.HomeActivity" />
+        <activity android:name=".Admin.AddProductActivity" />
+        <activity android:name=".Admin.AdminAddNewProductActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
